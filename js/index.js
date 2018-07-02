@@ -29,12 +29,12 @@ function setHeadAndFoot() {
         $('.nextPage').show();
     }
     if(transY>height/2){
-        $('.logo').attr('src','image/logo_orange.png');
-        $('.menuOpen').attr('src','image/menuOpen_gray.png');
+        $('.logo').attr('src','logo_orange.png');
+        $('.menuOpen').attr('src','menuOpen_gray.png');
         $('.footer a').css('color','gray');
     }else {
-        $('.logo').attr('src','image/logo_white.png');
-        $('.menuOpen').attr('src','image/menuOpen.png');
+        $('.logo').attr('src','logo_white.png');
+        $('.menuOpen').attr('src','menuOpen.png');
         $('.footer a').css('color','#fff');
     }
 }
@@ -170,14 +170,14 @@ function clickPage() {
     })
 }
 // 获得当前地址
-function getCity() {
-    var location=returnCitySN["cname"].split('省');
-    var p=location[0];
-    var c=location[1];
-    c=c.substr(0,c.length-1);
-    var h=p+'-'+c;
-    $('.location h4').html(h)
-}
+// function getCity() {
+//     var location=returnCitySN["cname"].split('省');
+//     var p=location[0];
+//     var c=location[1];
+//     c=c.substr(0,c.length-1);
+//     var h=p+'-'+c;
+//     $('.location h4').html(h)
+// }
 // 改变页面大小时，调整
 function resizeTransY() {
     var transy=parseInt(getTransY());
@@ -193,7 +193,7 @@ function resizeTransY() {
 }
 
 $(function () {
-    getCity();
+//     getCity();
     changeHeight();
     changeWidth();
     changeBusiness();
