@@ -111,7 +111,7 @@ body {
     position: fixed;
     width: 26px;
     height: 20px;
-    background: url("../image/home-arr-down.png") 50% no-repeat;
+    background: url("../home-arr-down.png") 50% no-repeat;
     background-size: 100%;
     z-index: 12;
     left: 50%;
@@ -169,7 +169,7 @@ body {
         margin: 7% 0 11%; }
 
 .video {
-  background: url("../image/index_bg.png") no-repeat;
+  background: url("../index_bg.png") no-repeat;
   background-size: 100% 100%; }
 
 .container-box:nth-child(odd) {
@@ -295,7 +295,7 @@ body {
   .page-three .bus-list li.active {
     color: #F79450; }
     .page-three .bus-list li.active .bus-icon {
-      background: url("../image/busIcon.png") no-repeat;
+      background: url("../busIcon.png") no-repeat;
       background-size: 100% 100%; }
   .page-three .bus-list .bus-icon {
     width: 26px;
@@ -481,16 +481,16 @@ body {
   .page-five .change-img span:not(.disabled):hover {
     border-color: #333; }
   .page-five .change-img span.prev-img {
-    background: url("../image/black_left.png") no-repeat;
+    background: url("../black_left.png") no-repeat;
     background-size: contain !important;
     margin-right: 50px; }
   .page-five .change-img span.prev-img.disabled {
-    background: url("../image/gray_left.png") no-repeat; }
+    background: url("../gray_left.png") no-repeat; }
   .page-five .change-img span.next-img {
-    background: url("../image/black_right.png") no-repeat;
+    background: url("../black_right.png") no-repeat;
     background-size: contain !important; }
   .page-five .change-img span.next-img.disabled {
-    background: url("../image/gray_right.png") no-repeat; }
+    background: url("../gray_right.png") no-repeat; }
 
 .mask {
   position: fixed;
@@ -509,7 +509,7 @@ body {
     position: absolute;
     top: 20px;
     right: 50px;
-    background: url("../image/close_mask.png") no-repeat;
+    background: url("../close_mask.png") no-repeat;
     background-size: 100% 100%; }
   .mask .mask-list > li {
     box-sizing: border-box;
